@@ -6,10 +6,6 @@ import jakarta.persistence.*;
 @Table(name = "transactions")
 public class Transaction extends BaseEntity
 {
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  public Long id;
-
   @Column(name = "record_id")
   public Long recordId;
   

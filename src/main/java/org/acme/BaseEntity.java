@@ -1,4 +1,4 @@
-package si.nlb.kyc.service.surveyemailsendservice.persistence.surveyemail.models.common;
+package org.acme
 
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import jakarta.persistence.*;
@@ -7,8 +7,6 @@ import java.util.UUID;
 
 @MappedSuperclass
 public class BaseEntity extends PanacheEntityBase {
-
-  @Id @GeneratedValue private UUID id;
 
   @Column(name = "created_at")
   private Instant createdAt;

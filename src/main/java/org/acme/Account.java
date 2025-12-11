@@ -8,7 +8,7 @@ import jakarta.persistence.*;
 public class Account extends BaseEntity
 {  
   @Column(name = "record_id")
-  public Long recodId;
+  public Long recordId;
 
   @Column(name = "card_code")
   public String cardCode;
