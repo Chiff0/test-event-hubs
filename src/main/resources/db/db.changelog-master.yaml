@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include: 
+    file: db/changes/create-account-table.yaml
+    file: db/changes/create-transaction-table.yaml
