@@ -2,6 +2,6 @@ package org.acme.events;
 
 public class AccountEvent
 {
-  Header header;
-  AccountPayload payload;
+  public Header header;
+  public AccountPayload payload;
 }
